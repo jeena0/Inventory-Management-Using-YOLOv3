@@ -355,6 +355,7 @@ class MainPage:
         self.qr_window.title("QR Code for Cart")
         display_qr(self.qr_window, cart_payload)
 
+
         # Optionally, clear the cart after QR is generated
         self.cart.clear()
 

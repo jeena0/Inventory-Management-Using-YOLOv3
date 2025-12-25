@@ -1,7 +1,7 @@
 from tkinter import messagebox
 from build_scratch import get_what_label
 import sqlite3
-
+import time
 # Get detected labels
 detected_labels = get_what_label()
 print("detected_labels: ", detected_labels)
